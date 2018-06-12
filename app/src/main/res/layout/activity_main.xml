@@ -22,5 +22,11 @@
         android:text="Skip to SecondActivity"
         android:id="@+id/btn_skip" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter MainActivity"
+        android:onClick="onEnterClickEvent" />
+
 
 </LinearLayout>

@@ -30,4 +30,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
     }
+
+    public void onEnterClickEvent(View view){
+        //执行业务逻辑
+    }
 }
